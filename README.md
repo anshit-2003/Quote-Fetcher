@@ -2,6 +2,8 @@
 
 ## Overview
 
+### [Live Demo](https://quote-fetcher.vercel.app/)
+
 This is a simple Quote Fetcher app built with React, utilizing React's state and useEffect hook to fetch and display random quotes from an external API.
 
 ## Features
