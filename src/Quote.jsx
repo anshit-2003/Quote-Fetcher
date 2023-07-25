@@ -8,7 +8,7 @@ export default function Quote() {
     }, []);
     async function getQuote() {
         const response = await fetch(
-            "http://inspo-quotes-api.herokuapp.com/quotes/random"
+            "https://inspo-quotes-api.herokuapp.com/quotes/random"
         );
         const jsonresponse = await response.json();
         const quote = jsonresponse.quote;
